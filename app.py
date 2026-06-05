@@ -84,4 +84,3 @@ if prompt := st.chat_input("연애 고민을 입력해보세요... (예: 남친�
             message_placeholder.error(f"❌ Gemini API 오류가 발생했습니다: {ae.message}")
         except Exception as e:
             message_placeholder.error(f"An unexpected error occurred: {e}")
-l
